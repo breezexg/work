@@ -55,7 +55,7 @@ int GetTop(struct Stack *s, DataType *x)
 
 int main()
 {
-    SetConsoleOutputCP(CP_UTF8);  // 控制台输出 UTF-8，防止中文乱码
+    SetConsoleOutputCP(CP_UTF8);  
     struct Stack st;
     int val;
     InitStack(&st, 10);
