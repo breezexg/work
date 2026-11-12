@@ -73,5 +73,6 @@ int main()
 
     HeadInsert(L, 3);
     printf("头插3后："); Print(L);
+    system("pause");
     return 0;
 }
